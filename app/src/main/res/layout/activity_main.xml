@@ -149,7 +149,6 @@
         android:layout_height="fill_parent"
 
         android:layout_below="@+id/cardViewGraph"
-        android:layout_above="@+id/btnTrack"
         android:layout_margin="20sp"
         app:cardElevation="10sp"
         app:cardCornerRadius="15dp">
@@ -570,23 +569,7 @@
 
     </androidx.cardview.widget.CardView>
 
-      <Button
-          android:id="@+id/btnTrack"
-          android:layout_width="match_parent"
-          android:layout_height="wrap_content"
-          android:layout_alignParentBottom="true"
-          android:layout_margin="20sp"
-          android:background="@color/color_one"
-          android:text="All Countries"
-          android:textStyle="bold"
-          android:fontFamily="casual"
-          android:textSize="20sp"
-          android:padding="5sp"
-          android:textAllCaps="false"
-          android:onClick="goTrackCountries">
 
-
-      </Button>
 
 
     </RelativeLayout>
