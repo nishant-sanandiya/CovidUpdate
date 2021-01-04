@@ -69,9 +69,5 @@ class MainActivity : AppCompatActivity() {
     }
 
 
-    fun goTrackCountries(view: View) {
 
-     //  val intent:Intent = Intent(this, MainActivity2::class.java)
-        startActivity(intent)
-    }
 }
